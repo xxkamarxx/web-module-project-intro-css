@@ -47,3 +47,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* End of Reset Code */
+/* Button Modifiers */
+.buttons {
+	display: flex;
+	height: 32px;
+	width: 50%;
+	justify-content: center;
+	/* Note for continuance consider using anchor tags here instead of buttons
+	Also use the inline-block display type. */
+
+}
