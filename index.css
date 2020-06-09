@@ -48,16 +48,45 @@ table {
 	border-spacing: 0;
 }
 /* -- End of CSS Reset */
-/* Anchor Tag Modifiers */
-.anchors {
+
+/* Yosemit Park font */
+div.tibox header.ib-container h1 {
+	size: 15rem;
+}
+
+
+/* Nav Bar Modifiers */
+div.navbar nav.nav-links button{
+	border: 0px;
+	border-radius: 20%;
+	height: 3rem;
 	display: inline-block;
-	height: 30px;
+}
+div.navbar nav.nav-links button.nav-one {
+	background-color: #FF764E;
 	/* Note for continuance consider using anchor tags here instead of buttons
 	Also use the inline-block display type. */
-
 }
-nav.anchors a.anchors-one.top{
-	background-color: #FF764E;
-	border: 20px solid rebeccapurple;
-/* not working fix */
+div.navbar nav.nav-links button.nav-two {
+	background-color: #5ED3EB;
+}
+div.navbar nav.nav-links button.nav-three {
+	background-color: #FFCD69;
+}
+/* End of Nav Bar Modifiers */
+
+/* Header Image inline with h1 and first textbox */
+/* header .ib-container {
+	display: inline-block;
+	
+} */
+div .tibox  {
+	display: inline-block;
+	border: 50px solid chartreuse;
+}
+/* setting width to a % and setting height to auto scales the img */
+header img.hdimg {
+	width: 20%;
+	height: auto;
+	border-radius: 50%;
 }
