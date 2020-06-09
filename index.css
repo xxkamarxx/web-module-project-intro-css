@@ -47,14 +47,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* End of Reset Code */
-/* Button Modifiers */
-.buttons {
-	display: flex;
-	height: 32px;
-	width: 50%;
-	justify-content: center;
+/* -- End of CSS Reset */
+/* Anchor Tag Modifiers */
+.anchors {
+	display: inline-block;
+	height: 30px;
 	/* Note for continuance consider using anchor tags here instead of buttons
 	Also use the inline-block display type. */
 
+}
+nav.anchors a.anchors-one.top{
+	background-color: #FF764E;
+	border: 20px solid rebeccapurple;
+/* not working fix */
 }
