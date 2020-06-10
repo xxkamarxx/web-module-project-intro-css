@@ -54,14 +54,38 @@ html {
 	font-family: 'Roboto Mono', monospace;
 	
 }
-/* Yosemit Park font */
+/* Flex Container Img H1 P */
+div.tibox header.ib-container{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+
+/* Yosemite Park font and other Flex items*/
+
 div.tibox header.ib-container h1 {
 	font-family: "Chelsea Market", sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	color: chartreuse;
+	font-size: 2.6rem;
+	
+	
 }
-
+.headcont {
+	margin-left: 2rem;
+}
+div.tibox header.ib-container p.flxitm1 {
+	font-size: small;
+	
+	
+}
+div.tibox header.ib-container p.flxitm2 {
+	align-self: center;
+	
+	
+}
 /* Nav Bar Modifiers */
 /* Lines 62-66 is using flexbox for button spacing */
 div.navbar nav.nav-links {
@@ -75,7 +99,7 @@ div.navbar nav.nav-links {
 }
 div.navbar nav.nav-links button{
 	border: 0px;
-	border-radius: 10%;
+	border-radius: 1rem;
 	height: 3rem;
 	display: inline-block;
 }
@@ -98,15 +122,16 @@ div.navbar nav.nav-links button.nav-three {
 	
 } */
 div.tibox  {
-	display: inline-block;
-	border: 50px solid chartreuse;
+	display: flex;
+	
 	
 }
 /* setting width to a % and setting height to auto scales the img */
-header img.hdimg {
-	width: 20%;
+div.tibox img.hdimg {
+	width: 12rem;
 	height: auto;
 	border-radius: 50%;
+	margin-left: 3.5rem;
 }
 /* White Text in Box thats Brown */
 section.wtext {
@@ -143,5 +168,13 @@ section.truck-and p{
 	display: block;
 	margin: 0 auto;
 	text-align: center;
-	width: 20em;
+	width: 20rem;
+}
+/* Footer */
+footer.bot-of-page {
+	background-color:#F9E7DC;
+}
+footer.bot-of-page img.ftimg {
+	width: 60rem;
+	height: 10rem;
 }
