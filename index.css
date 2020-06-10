@@ -48,12 +48,19 @@ table {
 	border-spacing: 0;
 }
 /* -- End of CSS Reset */
-
+/* Default text */
+/* All text selector (exclude h1 tag) */
+html {
+	font-family: 'Roboto Mono', monospace;
+	
+}
 /* Yosemit Park font */
 div.tibox header.ib-container h1 {
-	size: 15rem;
+	font-family: "Chelsea Market", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: chartreuse;
 }
-
 
 /* Nav Bar Modifiers */
 /* Lines 62-66 is using flexbox for button spacing */
@@ -90,13 +97,51 @@ div.navbar nav.nav-links button.nav-three {
 	display: inline-block;
 	
 } */
-div .tibox  {
+div.tibox  {
 	display: inline-block;
 	border: 50px solid chartreuse;
+	
 }
 /* setting width to a % and setting height to auto scales the img */
 header img.hdimg {
 	width: 20%;
 	height: auto;
 	border-radius: 50%;
+}
+/* White Text in Box thats Brown */
+section.wtext {
+	width: 56rem;
+	margin: auto;
+	color:white;
+	background-color: #DDB9A3;
+	text-align: center;
+}
+/* Fire and Truck Image styling */
+section.fire-and img {
+	display: block;
+	width: 10em;
+	height: 10em;
+	margin: 2em auto;
+	
+}
+section.truck-and img {
+	display: block;
+	width: 10em;
+	height: 10em;
+	margin: 2em auto;
+}	
+/* Fire Text */
+section.fire-and p{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 20em;
+}
+
+/* Truck Text */
+section.truck-and p{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 20em;
 }
